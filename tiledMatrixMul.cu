@@ -31,7 +31,7 @@ __global__ void MatMulKernel(float* A, float* B, float* C, int width)
 }
 
 
-void MatMul(const float* A, const float* B, float* C, int width_A, int height_A, int width_B, int width_B)
+void MatMul(const float* A, const float* B, float* C, int width_A, int height_A, int width_B, int height_B)
 {
 
     float* d_A;
